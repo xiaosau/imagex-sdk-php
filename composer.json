@@ -1,0 +1,22 @@
+{
+    "name": "xiaosau/veimagex-sdk-php",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+      {
+        "name": "bytedance"
+      }
+    ],
+    "require": {
+      "php": ">=7.0",
+      "guzzlehttp/guzzle": "*",
+      "ext-json": "*"
+    },
+    "autoload": {
+      "psr-4": {
+        "Volc\\": "src/",
+        "Test\\": "tests/"
+      }
+    },
+    "description": ""
+  }
